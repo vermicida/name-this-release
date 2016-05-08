@@ -6,4 +6,4 @@ const dictionary = require("./es-dictionary");
 var name = dictionary.generateRandomName();
 
 // Print the generated name.
-console.log("Name your release as '" + name + "'.");
+console.log("Name your release as '" + name + "'.\n");

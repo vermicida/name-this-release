@@ -7,11 +7,38 @@ There is only a spanish dictionary with abstract nouns for now, but the idea is 
 
 Check the examples below:
 
+- injusticia-diferente
 - culpa-social
 - intuicion-mayor
 - temor-popular
 - afecto-acido
-- gule-util
+- gula-util
+
+## Getting started
+
+To use this script, you must clone this repo first:
+```bash
+$ git clone https://github.com/vermicida/name-this-release.git
+```
+
+Then, install the dependencies using NPM:
+```bash
+$ npm install
+```
+
+Another way is to download all via NPM directly:
+```bash
+$ npm install name-this-release
+```
+
+## Magic
+
+Are you ready for some good magic? Then choose a card. Or run this command, what you prefer:
+```bash
+$ npm run ntr
+```
+
+Ok, this is not the magic you waited for. Magic only on tuesdays -I hope today isn't tuesday-.
 
 ## License
 
