@@ -1,9 +1,8 @@
-
-// Requires.
+/** Dependencies */
 const Random = require("random-js");
 const random = new Random(Random.engines.browserCrypto);
 
-// The adjectives collection.
+/** The adjectives collection */
 const adjectives = [
     "aburrido",
     "acido",
@@ -107,7 +106,7 @@ const adjectives = [
     "vivo"
 ];
 
-// The abstract substantives collection.
+/** The abstract substantives collection */
 const substantives = [
     "abnegacion",
     "abuso",
@@ -213,9 +212,10 @@ const substantives = [
     "vitalidad"
 ];
 
-module.exports = {
-    // Generate a random substantive / adjective pair.
-    generateRandomName: () => {
-        return (random.pick(substantives) + "-" + random.pick(adjectives));
-    }
+/** Generate a random substantive / adjective pair */
+const generateRandomName = () => {
+    return `${random.pick(substantives)}-${random.pick(adjectives)}`;
 };
+
+/** Module */
+module.exports = { "generateRandomName": generateRandomName };

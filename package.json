@@ -1,19 +1,23 @@
 {
   "name": "name-this-release",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "This script helps you to name your app's releases.",
-  "author": "Diego Herrera",
-  "homepage": "https://github.com/vermicida/name-this-release#readme",
   "license": "MIT",
+  "homepage": "https://github.com/vermicida/name-this-release#readme",
+  "author": {
+    "name": "Diego Herrera",
+    "email": "vermicida@gmail.com"
+  },
+  "preferGlobal": true,
+  "bin": {
+    "ntr": "./index.js"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/vermicida/name-this-release.git"
   },
   "bugs": {
     "url": "https://github.com/vermicida/name-this-release/issues"
-  },
-  "scripts": {
-    "ntr": "node ./index.js"
   },
   "keywords": [
     "name",
@@ -22,6 +26,7 @@
     "random"
   ],
   "dependencies": {
+    "commander": "^2.9.0",
     "random-js": "^1.0.8"
   }
 }

@@ -1,6 +1,10 @@
 
 # name-this-release (ntr)
 
+[![NPM](https://nodei.co/npm/name-this-release.png?compact=true)](https://nodei.co/npm/name-this-release/)
+
+[![npm version](https://badge.fury.io/js/name-this-release.svg)](https://badge.fury.io/js/name-this-release) [![Dependency Status](https://david-dm.org/vermicida/name-this-release.svg)](https://david-dm.org/vermicida/name-this-release)
+
 Do you like the way Docker name your containers? Or maybe the way AngularJS name its releases? Lucky you! This script will create a random noun / adjective pair to name your apps's releases.
 
 There is only a spanish dictionary with abstract nouns for now, but the idea is to improve this script with more dictionaries to generate really cool names.
@@ -16,29 +20,23 @@ Check the examples below:
 
 ## Getting started
 
-To use this script, you must clone this repo first:
-```bash
-$ git clone https://github.com/vermicida/name-this-release.git
-```
+You must have [Node.js](https://nodejs.org/en/) installed in your system, so do it if you haven't.
 
-Then, install the dependencies using NPM:
-```bash
-$ npm install
-```
+Install `name-this-release` globally running this command from your terminal:
 
-Another way is to download all via NPM directly:
 ```bash
-$ npm install name-this-release
+$ npm install name-this-release -g
 ```
 
 ## Magic
 
-Are you ready for some good magic? Then choose a card. Or run this command, what you prefer:
+Are you ready for some magic? Then choose a card! Or run this command, what you do prefer:
+
 ```bash
-$ npm run ntr
+$ ntr
 ```
 
-Ok, this is not the magic you waited for. Magic only on tuesdays -I hope today isn't tuesday-.
+Ok, I know this is not the magic you've been waiting for. But this is cool, isn't it?
 
 ## License
 
