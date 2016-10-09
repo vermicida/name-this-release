@@ -3,6 +3,7 @@
 "use strict";
 
 /** Dependencies */
+const chalk = require("chalk");
 const program = require("commander");
 
 let dictionaryName;
@@ -24,9 +25,9 @@ try {
     let dictionary = require(`./dict/${dictionaryName}-dict`);
 
     /** Generate a random name */
-    console.log(`\nName your release as '${dictionary.generateRandomName()}'.\n`);
+    console.log(`\nName your release as ${chalk.green(dictionary.generateRandomName())}.\n`);
 }
 catch(err) {
     /** In case of error */
-    console.error(`The dictionary '${dictionaryName}' does not exists.`);
+    console.error(chalk.red(`\nThe dictionary '${dictionaryName}' does not exists.\n`));
 }

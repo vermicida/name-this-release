@@ -26,6 +26,7 @@
     "random"
   ],
   "dependencies": {
+    "chalk": "^1.1.3",
     "commander": "^2.9.0",
     "random-js": "^1.0.8"
   }
