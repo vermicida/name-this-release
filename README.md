@@ -36,7 +36,7 @@ Are you ready for some magic? Then choose a card! Or run this command, what you 
 $ ntr
 ```
 
-Ok, I know this is not the magic you've been waiting for. But this is cool, isn't it?
+Ok, I know this is not the magic you've been waiting for. But it's cool, isn't it?
 
 ## License
 
